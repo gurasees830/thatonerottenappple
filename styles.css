@@ -1,0 +1,189 @@
+*,
+::before,
+::after{
+        margin: 0;
+        padding: 0;
+}
+
+html{
+    font-size: 10px;
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 98rem;
+    margin: 0 auto;
+    padding: 0 2.2rem;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    z-index: 1400;
+    width: 100%;
+    height: 4.4rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(2rem);
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 -1rem;
+    gap: 60px;
+}
+
+.nav-list-mobile{
+    display: none;
+}
+
+.nav-link{
+    font-size: 1.4rem;
+    color: #fff;
+    padding: 0 1rem;
+    transition: opacity .5s;
+}
+
+.nav-link:hover{
+    opacity: .7;
+}
+
+.nav-link-apple{
+    width: 1.6rem;
+    height: 4.4rem;
+    background: url("icons8-apple-logo.svg") center no-repeat;
+}
+
+.nav-link-search{
+    width: 1.2rem;
+    height: 4.4rem;
+    background: url("icons8-search\ \(2\).svg") center no-repeat;
+}
+
+.nav-link-bag{
+    width: 1.4rem;
+    height: 4.4rem;
+    background: url("shopping-bag.png") center no-repeat;
+}
+
+.iphone-15-pro{
+    background: url("iphone15\ pro.jpg");
+    margin-top: 4rem;
+}
+
+.hero{
+    height: 69.2rem;
+    background-size: auto 95rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: .6rem solid #fff;
+    border-bottom: .6rem solid #fff;
+}
+
+.iphone-15-pro{
+    border-top: none;
+}
+
+.title{
+    color: #fff;
+    text-align: center;
+    padding-top: 5.5rem;
+}
+
+.title-heading{
+    font-size: 5.6rem ;
+    line-height: 1.07143;
+    letter-spacing: -.005rem;
+}
+
+.title-sub-heading{
+    font-size: 2.65rem;
+    margin-top: 0.6rem;
+    letter-spacing: 0.008rem;
+    font-weight: 400;
+}
+
+.title-price{
+    font-size: 1.7rem;
+    color: #888;
+    margin-top: .68rem;
+}
+
+.cta{
+    text-align: center;
+    margin-top: 1.8rem;
+}
+
+.cta-link{
+    color: #66bbff;
+    font-size: 2.1rem;
+    display: inline-block ;
+}
+
+.cta-link:nth-child(2){
+    margin-left: 2.6rem;
+}
+
+.cta-link:hover{
+    border-bottom:2px solid #66bbff;
+}
+
+.iphone-15{
+    background: url("iphone\ 15\ og.jpg");
+    margin-top: 4.4rem;
+}
+
+.hero{
+    height: 69.2rem;
+    background-size: auto 95rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: .6rem solid #fff;
+    border-bottom: .6rem solid #fff;
+}
+
+.iphone-15{
+    border-top: none;
+}
+
+.title-dark{
+    color: #000;
+}
+
+.cta-link-darker{
+    color: #0070c9;
+}
+
+.cta-link-darker:hover{
+    border-bottom-color: #0070c9; 
+}
+
+.title-sub-heading-watch{
+    color: #fff;
+    font-size: 3.5rem;
+}
+
+.watch{
+    background: url("apple\ watch\ series\ 9.jpg") center no-repeat;
+    background-size: cover;
+}
+
+img{
+    border-radius: 100%;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
